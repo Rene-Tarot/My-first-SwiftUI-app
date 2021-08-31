@@ -14,6 +14,7 @@
 		615B355226DED48900AE2CD2 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 615B355126DED48800AE2CD2 /* locations.json */; };
 		615B355426DED4A700AE2CD2 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 615B355326DED4A700AE2CD2 /* tips.json */; };
 		615B355626DEE36100AE2CD2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B355526DEE36100AE2CD2 /* Location.swift */; };
+		615B355826DEEA5000AE2CD2 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B355726DEEA5000AE2CD2 /* Locations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		615B355126DED48800AE2CD2 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		615B355326DED4A700AE2CD2 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		615B355526DEE36100AE2CD2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		615B355726DEEA5000AE2CD2 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				615B355326DED4A700AE2CD2 /* tips.json */,
 				615B354226DDE4BB00AE2CD2 /* My_first_SwiftUI_appApp.swift */,
 				615B354426DDE4BB00AE2CD2 /* ContentView.swift */,
+				615B355726DEEA5000AE2CD2 /* Locations.swift */,
 				615B355526DEE36100AE2CD2 /* Location.swift */,
 				615B354626DDE4BF00AE2CD2 /* Assets.xcassets */,
 				615B354B26DDE4BF00AE2CD2 /* Info.plist */,
@@ -151,6 +154,7 @@
 			files = (
 				615B354526DDE4BB00AE2CD2 /* ContentView.swift in Sources */,
 				615B355626DEE36100AE2CD2 /* Location.swift in Sources */,
+				615B355826DEEA5000AE2CD2 /* Locations.swift in Sources */,
 				615B354326DDE4BB00AE2CD2 /* My_first_SwiftUI_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
