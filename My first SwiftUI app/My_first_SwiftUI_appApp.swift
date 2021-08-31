@@ -12,7 +12,7 @@ struct My_first_SwiftUI_appApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView{
-                ContentView()
+                ContentView(location: Location.example)
             }
         }
     }
