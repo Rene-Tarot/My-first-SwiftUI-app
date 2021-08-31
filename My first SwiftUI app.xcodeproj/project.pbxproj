@@ -11,6 +11,8 @@
 		615B354526DDE4BB00AE2CD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B354426DDE4BB00AE2CD2 /* ContentView.swift */; };
 		615B354726DDE4BF00AE2CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615B354626DDE4BF00AE2CD2 /* Assets.xcassets */; };
 		615B354A26DDE4BF00AE2CD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 615B354926DDE4BF00AE2CD2 /* Preview Assets.xcassets */; };
+		615B355226DED48900AE2CD2 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 615B355126DED48800AE2CD2 /* locations.json */; };
+		615B355426DED4A700AE2CD2 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 615B355326DED4A700AE2CD2 /* tips.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		615B354626DDE4BF00AE2CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		615B354926DDE4BF00AE2CD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		615B354B26DDE4BF00AE2CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615B355126DED48800AE2CD2 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		615B355326DED4A700AE2CD2 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		615B354126DDE4BB00AE2CD2 /* My first SwiftUI app */ = {
 			isa = PBXGroup;
 			children = (
+				615B355126DED48800AE2CD2 /* locations.json */,
+				615B355326DED4A700AE2CD2 /* tips.json */,
 				615B354226DDE4BB00AE2CD2 /* My_first_SwiftUI_appApp.swift */,
 				615B354426DDE4BB00AE2CD2 /* ContentView.swift */,
 				615B354626DDE4BF00AE2CD2 /* Assets.xcassets */,
@@ -127,6 +133,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				615B354A26DDE4BF00AE2CD2 /* Preview Assets.xcassets in Resources */,
+				615B355426DED4A700AE2CD2 /* tips.json in Resources */,
+				615B355226DED48900AE2CD2 /* locations.json in Resources */,
 				615B354726DDE4BF00AE2CD2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
