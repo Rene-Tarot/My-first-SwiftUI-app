@@ -9,11 +9,13 @@ import SwiftUI
 
 @main
 struct My_first_SwiftUI_appApp: App {
+    @StateObject var locations = Locations()
+    
     var body: some Scene {
         WindowGroup {
             TabView{
                 NavigationView{
-                    ContentView(location: Locations().primary)
+                    ContentView(location: locations.primary)
                 }
                 .tabItem { Image(systemName: "airplane.circle.fill")
                            Text("Discover")
@@ -26,6 +28,7 @@ struct My_first_SwiftUI_appApp: App {
                     Text("Locations")
                 }
             }
+            .environmentObject(locations)
             
         }
     }
