@@ -11,9 +11,22 @@ import SwiftUI
 struct My_first_SwiftUI_appApp: App {
     var body: some Scene {
         WindowGroup {
-            NavigationView{
-                ContentView(location: Location.example)
+            TabView{
+                NavigationView{
+                    ContentView(location: Locations().primary)
+                }
+                .tabItem { Image(systemName: "airplane.circle.fill")
+                           Text("Discover")
+                }
+                NavigationView {
+                    WorldView()
+                }
+                .tabItem {
+                    Image(systemName: "star.fill")
+                    Text("Locations")
+                }
             }
+            
         }
     }
 }
