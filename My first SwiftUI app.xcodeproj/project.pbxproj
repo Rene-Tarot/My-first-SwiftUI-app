@@ -16,6 +16,8 @@
 		615B355626DEE36100AE2CD2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B355526DEE36100AE2CD2 /* Location.swift */; };
 		615B355826DEEA5000AE2CD2 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B355726DEEA5000AE2CD2 /* Locations.swift */; };
 		615B355A26E0421200AE2CD2 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615B355926E0421200AE2CD2 /* WorldView.swift */; };
+		61F025F026E197590021F249 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F025EF26E197590021F249 /* Tip.swift */; };
+		61F025F226E198870021F249 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F025F126E198870021F249 /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		615B355526DEE36100AE2CD2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		615B355726DEEA5000AE2CD2 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		615B355926E0421200AE2CD2 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		61F025EF26E197590021F249 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		61F025F126E198870021F249 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				615B354426DDE4BB00AE2CD2 /* ContentView.swift */,
 				615B355726DEEA5000AE2CD2 /* Locations.swift */,
 				615B355526DEE36100AE2CD2 /* Location.swift */,
+				61F025EF26E197590021F249 /* Tip.swift */,
+				61F025F126E198870021F249 /* TipsView.swift */,
 				615B354626DDE4BF00AE2CD2 /* Assets.xcassets */,
 				615B354B26DDE4BF00AE2CD2 /* Info.plist */,
 				615B354826DDE4BF00AE2CD2 /* Preview Content */,
@@ -158,6 +164,8 @@
 				615B354526DDE4BB00AE2CD2 /* ContentView.swift in Sources */,
 				615B355626DEE36100AE2CD2 /* Location.swift in Sources */,
 				615B355A26E0421200AE2CD2 /* WorldView.swift in Sources */,
+				61F025F026E197590021F249 /* Tip.swift in Sources */,
+				61F025F226E198870021F249 /* TipsView.swift in Sources */,
 				615B355826DEEA5000AE2CD2 /* Locations.swift in Sources */,
 				615B354326DDE4BB00AE2CD2 /* My_first_SwiftUI_appApp.swift in Sources */,
 			);
